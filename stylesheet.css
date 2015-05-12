@@ -203,6 +203,7 @@ line-height: 35px; }
 #header-bottom-right #modmail {
 margin: 0;
 top: 0;
+vertical-align: top;
 width: 35px;
 height: 32px;
 border-right: 1px solid rgba(225,255,255,.25); }
@@ -385,8 +386,14 @@ border-right: 0; }
 
 .morelink,
 h1.redditname,
+/*.titlebox .tagline { display: none; }*/
 
 .leavecontributor-button, .leavemoderator { display: none; }
+/*.titlebox form.toggle { text-align: center; margin-bottom: 12px; }
+.flairtoggle {visibility:hidden;font-size:0px !important;}
+.flairtoggle::after {visibility:visible;font-size:12px !important; content:'Show my flair';}
+.flairtoggle input {visibility:visible !important;}
+form input[type=checkbox] { margin: 0 5px 0 0; vertical-align: bottom; }*/
 
 .titlebox form.toggle { margin-left: 40px; }
 .titlebox .tagline { margin-left: 60px; }
